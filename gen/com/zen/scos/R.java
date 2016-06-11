@@ -1068,10 +1068,20 @@ containing a value of this type.
         public static final int abc_textfield_searchview_holo_light=0x7f020054;
         public static final int abc_textfield_searchview_right_holo_dark=0x7f020055;
         public static final int abc_textfield_searchview_right_holo_light=0x7f020056;
-        public static final int ic_launcher=0x7f020057;
-        public static final int scos=0x7f020058;
+        public static final int check=0x7f020057;
+        public static final int help=0x7f020058;
+        public static final int ic_launcher=0x7f020059;
+        public static final int password=0x7f02005a;
+        public static final int place_order=0x7f02005b;
+        public static final int scos=0x7f02005c;
+        public static final int sign_in_out=0x7f02005d;
+        public static final int tabmenu_bg=0x7f02005e;
+        public static final int textfield=0x7f02005f;
+        public static final int user=0x7f020060;
     }
     public static final class id {
+        public static final int ET_Password=0x7f05003e;
+        public static final int ET_Username=0x7f05003d;
         public static final int action_bar=0x7f05001c;
         public static final int action_bar_activity_content=0x7f050015;
         public static final int action_bar_container=0x7f05001b;
@@ -1086,9 +1096,14 @@ containing a value of this type.
         public static final int activity_chooser_view_content=0x7f050025;
         public static final int always=0x7f05000b;
         public static final int beginning=0x7f050011;
+        public static final int bt_back=0x7f050040;
+        public static final int bt_login=0x7f05003f;
+        public static final int button_check=0x7f050042;
+        public static final int button_help=0x7f050044;
+        public static final int button_log=0x7f050043;
+        public static final int button_order=0x7f050041;
         public static final int checkbox=0x7f05002d;
         public static final int collapseActionView=0x7f05000d;
-        public static final int copyright=0x7f05003d;
         public static final int default_activity_button=0x7f050028;
         public static final int dialog=0x7f05000e;
         public static final int disableHome=0x7f050008;
@@ -1186,7 +1201,9 @@ containing a value of this type.
         public static final int abc_search_view=0x7f030016;
         public static final int abc_simple_decor=0x7f030017;
         public static final int entry=0x7f030018;
-        public static final int support_simple_spinner_dropdown_item=0x7f030019;
+        public static final int loginorregister=0x7f030019;
+        public static final int mainscreen=0x7f03001a;
+        public static final int support_simple_spinner_dropdown_item=0x7f03001b;
     }
     public static final class string {
         /**  Content description for the action bar "home" affordance. [CHAR LIMIT=NONE] 

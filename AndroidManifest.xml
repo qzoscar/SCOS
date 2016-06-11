@@ -7,6 +7,7 @@
     <uses-sdk
         android:minSdkVersion="8"
         android:targetSdkVersion="19" />
+    <permission android:name="scos.permission.ACCESSSCOS" android:protectionLevel="dangerous"></permission>
 
     <application
         android:allowBackup="true"
@@ -21,6 +22,18 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity 
+            android:name="es.source.code.activity.MainScreen" android:permission="scos.permission.ACCESSSCOS">
+           <intent-filter>
+               <action android:name="scos.intent.action.SCOSMAIN"/>
+               <category android:name="android.intent.category.DEFAULT"/>
+               <category android:name="scos.intent.category.SCOSLAUNCHER"/>
+           </intent-filter>
+        </activity>
+        <activity 
+            android:name="es.source.code.activity.LoginOrRegister">
+            
         </activity>
     </application>
 
